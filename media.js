@@ -7,6 +7,7 @@ let soma = 0
 
 for (let i = 0; i < tamanhoLista; i++) {
     let entrada = prompt("Insira um numero");
+
     let numero = Number(entrada);
     numeros.push(numero);
 }
@@ -32,11 +33,10 @@ let media = soma / numeros.length;
 
 
 
-console.log(numeros);
-console.log("A soma dos numeros é: " + soma);
+document.writeln("A soma dos numeros é: " + soma + "<br>");
 
-console.log("A média dos numeros é: " + media);
+document.writeln("A média dos numeros é: " + media + "<br>");
 
-console.log("O maior numero é: " + maior);
+document.writeln("O maior numero é: " + maior + "<br>");
 
-console.log("O menor numero é: " + menor);
+document.writeln("O menor numero é: " + menor+ "<br>");
